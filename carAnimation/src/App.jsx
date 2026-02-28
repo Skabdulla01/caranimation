@@ -31,7 +31,7 @@ function App() {
     }
   })  
     tl.to(car.current,{
-      x:"300%",
+      x: () => container.current.offsetWidth * 0.90,
       duration:3,
     })
     tl.to(box.current,{
